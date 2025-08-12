@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "excel-data-app",
-    "slug": "excel-data-app",
+    "name": "Form2Excel",
+    "slug": "Form2Excel",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icons8-xls-100.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/icons8-xls-100.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,13 +17,19 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icons8-xls-100.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.lokeshkumar_08.exceldataapp"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/icons8-xls-100.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7dea4653-c4d0-4ee2-a552-fcf9bccfee02"
+      }
     }
   }
 }
